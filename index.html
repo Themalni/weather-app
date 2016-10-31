@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Show the Local Weather</title>
+  <meta name="viewport" content="width=device-width">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400,700" rel="stylesheet"> 
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet"> 
+
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="loader-container">
+  <div class="loader"></div>
+</div>
+<div class="container">
+  <div class="header-container">
+    <div class="CF">
+      <span class="celsius">&deg;C</span> 
+        <label class="switch-body">
+          <input type="checkbox">
+            <div class="switch"></div>
+        </label>
+      <span class="fahrenheit">&deg;F</span>
+    </div>
+    <div class="widget-title">
+      <h1>Local Weather</h1>
+    </div>
+   </div><!-- END header-container -->
+    <div class="info-container">
+      <div class="left">
+        <div class="weather-icon"></div>
+        <h3 class="condition"></h3>
+        <h3 class="wind"></h3>
+        <h3 class="pres"></h3>
+      </div>
+      <div class="right">
+        <h2 class="city"></h2>
+        <h3 class="today-date"></h3>
+        
+        <h1 class="tempr"></h1> 
+      </div>
+    </div>
+  
+</div><!-- END container -->
+<div class="credits">
+    <h3>Powered by <a href="http://openweathermap.org/">OpenWeatherMap</a></h3>
+  <h3>Icons by <a href="http://www.flaticon.com/authors/eucalyp">Eucalyp </a>from<a href=""> Flation</a></h3>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+      <script src="js/index.js"></script>
+
+</body>
+</html>
