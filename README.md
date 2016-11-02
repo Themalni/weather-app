@@ -1,3 +1,7 @@
+This Weather App is one of the challenges for Intermediate Front End Development projects at Free Code Camp.
+
+Visit [Free Code Camp ]( https://www.freecodecamp.com) to learn web development for free.
+
 Live preview: https://themalni.github.io/weather-app/ <br>
 In order to see this application working, make sure you allow the browser read your location. <br>
 
