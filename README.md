@@ -1,4 +1,4 @@
-This Weather App is one of the challenges for Intermediate Front End Development projects at Free Code Camp.
+This Weather App is one of the Intermediate Front End Development projects for Free Code Camp.
 
 Visit [Free Code Camp ]( https://www.freecodecamp.com) to learn web development for free.
 
