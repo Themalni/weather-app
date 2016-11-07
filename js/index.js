@@ -54,7 +54,7 @@ function getLocation(){
 
 // Get Weather Data
   function getWeather(){
-    $.getJSON("https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat="+ lat +"&lon="+ lon +"&units=metric&APPID=9aeb972baaea4e885d33548853493fea", function(data){
+    $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat="+ lat +"&lon="+ lon +"&units=metric&APPID=9aeb972baaea4e885d33548853493fea", function(data){
 
     var tempRound = Math.floor(data.main.temp);
     var pressRound = Math.floor(data.main.pressure);
